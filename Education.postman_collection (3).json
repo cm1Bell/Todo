@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "015fc73f-2ecf-4153-a56b-99ed572d22ad",
+		"name": "Education",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "dimitri@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "testtest",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://education.octodev.net/api/v1/register",
+					"protocol": "https",
+					"host": [
+						"education",
+						"octodev",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "dimitri.b@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "tesssssdwe",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://education.octodev.net/api/v1/auth",
+					"protocol": "https",
+					"host": [
+						"education",
+						"octodev",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tasks list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 31ce733d3935eae0232342220f23f3f21cbba094",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://education.octodev.net/api/v1/task/all",
+					"protocol": "https",
+					"host": [
+						"education",
+						"octodev",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"task",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Task",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 91a5c12bce3efe632e2f6c9590a600579037f2ed",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Test 2",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "Simple task",
+							"type": "text"
+						},
+						{
+							"key": "deadline",
+							"value": "2021-03-15 00:00:00",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "done",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://education.octodev.net/api/v1/task",
+					"protocol": "https",
+					"host": [
+						"education",
+						"octodev",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"task"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit task",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer 91a5c12bce3efe632e2f6c9590a600579037f2ed"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Zalupa",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "content",
+							"value": "Simple task",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "deadline",
+							"value": "2021-03-15 00:00:00",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "21",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "zaaaaz",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://education.octodev.net/api/v1/task/update",
+					"protocol": "https",
+					"host": [
+						"education",
+						"octodev",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"task",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete task",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer 91a5c12bce3efe632e2f6c9590a600579037f2ed"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Zalupa",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "content",
+							"value": "Simple task",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "deadline",
+							"value": "2021-03-15 00:00:00",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "21",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "zaaaaz",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://education.octodev.net/api/v1/task/update",
+					"protocol": "https",
+					"host": [
+						"education",
+						"octodev",
+						"net"
+					],
+					"path": [
+						"api",
+						"v1",
+						"task",
+						"update"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
