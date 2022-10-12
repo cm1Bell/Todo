@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB2E33D428E34D6E0073FF5A /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2E33D428E34D6E0073FF5A /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2E33D728E34D6E0073FF5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB2E33D928E34D6E0073FF5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB2E33DB28E34D6E0073FF5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +46,9 @@
 		CB2E33E028E34D700073FF5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2E33E328E34D700073FF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2E33E528E34D700073FF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB2E33EA28E34D710073FF5A /* NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2E33EA28E34D710073FF5A /* TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2E33EE28E34D710073FF5A /* NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTests.swift; sourceTree = "<group>"; };
-		CB2E33F428E34D710073FF5A /* NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2E33F428E34D710073FF5A /* TasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2E33F828E34D710073FF5A /* NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITests.swift; sourceTree = "<group>"; };
 		CB2E33FA28E34D710073FF5A /* NotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CB3D364428EDC61900450D26 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 		CB2E33CB28E34D6E0073FF5A = {
 			isa = PBXGroup;
 			children = (
-				CB2E33D628E34D6E0073FF5A /* Notes */,
-				CB2E33ED28E34D710073FF5A /* NotesTests */,
-				CB2E33F728E34D710073FF5A /* NotesUITests */,
+				CB2E33D628E34D6E0073FF5A /* Tasks */,
+				CB2E33ED28E34D710073FF5A /* TasksTests */,
+				CB2E33F728E34D710073FF5A /* TasksUITests */,
 				CB2E33D528E34D6E0073FF5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +93,14 @@
 		CB2E33D528E34D6E0073FF5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB2E33D428E34D6E0073FF5A /* Notes.app */,
-				CB2E33EA28E34D710073FF5A /* NotesTests.xctest */,
-				CB2E33F428E34D710073FF5A /* NotesUITests.xctest */,
+				CB2E33D428E34D6E0073FF5A /* Tasks.app */,
+				CB2E33EA28E34D710073FF5A /* TasksTests.xctest */,
+				CB2E33F428E34D710073FF5A /* TasksUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB2E33D628E34D6E0073FF5A /* Notes */ = {
+		CB2E33D628E34D6E0073FF5A /* Tasks */ = {
 			isa = PBXGroup;
 			children = (
 				CB2E33D728E34D6E0073FF5A /* AppDelegate.swift */,
@@ -113,32 +113,32 @@
 				CB2E33E228E34D700073FF5A /* LaunchScreen.storyboard */,
 				CB2E33E528E34D700073FF5A /* Info.plist */,
 			);
-			path = Notes;
+			path = Tasks;
 			sourceTree = "<group>";
 		};
-		CB2E33ED28E34D710073FF5A /* NotesTests */ = {
+		CB2E33ED28E34D710073FF5A /* TasksTests */ = {
 			isa = PBXGroup;
 			children = (
 				CB2E33EE28E34D710073FF5A /* NotesTests.swift */,
 			);
-			path = NotesTests;
+			path = TasksTests;
 			sourceTree = "<group>";
 		};
-		CB2E33F728E34D710073FF5A /* NotesUITests */ = {
+		CB2E33F728E34D710073FF5A /* TasksUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CB2E33F828E34D710073FF5A /* NotesUITests.swift */,
 				CB2E33FA28E34D710073FF5A /* NotesUITestsLaunchTests.swift */,
 			);
-			path = NotesUITests;
+			path = TasksUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB2E33D328E34D6E0073FF5A /* Notes */ = {
+		CB2E33D328E34D6E0073FF5A /* Tasks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB2E33FE28E34D710073FF5A /* Build configuration list for PBXNativeTarget "Notes" */;
+			buildConfigurationList = CB2E33FE28E34D710073FF5A /* Build configuration list for PBXNativeTarget "Tasks" */;
 			buildPhases = (
 				CB2E33D028E34D6E0073FF5A /* Sources */,
 				CB2E33D128E34D6E0073FF5A /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = Notes;
+			name = Tasks;
 			productName = Notes;
-			productReference = CB2E33D428E34D6E0073FF5A /* Notes.app */;
+			productReference = CB2E33D428E34D6E0073FF5A /* Tasks.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CB2E33E928E34D710073FF5A /* NotesTests */ = {
+		CB2E33E928E34D710073FF5A /* TasksTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB2E340128E34D710073FF5A /* Build configuration list for PBXNativeTarget "NotesTests" */;
+			buildConfigurationList = CB2E340128E34D710073FF5A /* Build configuration list for PBXNativeTarget "TasksTests" */;
 			buildPhases = (
 				CB2E33E628E34D710073FF5A /* Sources */,
 				CB2E33E728E34D710073FF5A /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				CB2E33EC28E34D710073FF5A /* PBXTargetDependency */,
 			);
-			name = NotesTests;
+			name = TasksTests;
 			productName = NotesTests;
-			productReference = CB2E33EA28E34D710073FF5A /* NotesTests.xctest */;
+			productReference = CB2E33EA28E34D710073FF5A /* TasksTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CB2E33F328E34D710073FF5A /* NotesUITests */ = {
+		CB2E33F328E34D710073FF5A /* TasksUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB2E340428E34D710073FF5A /* Build configuration list for PBXNativeTarget "NotesUITests" */;
+			buildConfigurationList = CB2E340428E34D710073FF5A /* Build configuration list for PBXNativeTarget "TasksUITests" */;
 			buildPhases = (
 				CB2E33F028E34D710073FF5A /* Sources */,
 				CB2E33F128E34D710073FF5A /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				CB2E33F628E34D710073FF5A /* PBXTargetDependency */,
 			);
-			name = NotesUITests;
+			name = TasksUITests;
 			productName = NotesUITests;
-			productReference = CB2E33F428E34D710073FF5A /* NotesUITests.xctest */;
+			productReference = CB2E33F428E34D710073FF5A /* TasksUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB2E33CF28E34D6E0073FF5A /* Build configuration list for PBXProject "Notes" */;
+			buildConfigurationList = CB2E33CF28E34D6E0073FF5A /* Build configuration list for PBXProject "Tasks" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB2E33D328E34D6E0073FF5A /* Notes */,
-				CB2E33E928E34D710073FF5A /* NotesTests */,
-				CB2E33F328E34D710073FF5A /* NotesUITests */,
+				CB2E33D328E34D6E0073FF5A /* Tasks */,
+				CB2E33E928E34D710073FF5A /* TasksTests */,
+				CB2E33F328E34D710073FF5A /* TasksUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		CB2E33EC28E34D710073FF5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB2E33D328E34D6E0073FF5A /* Notes */;
+			target = CB2E33D328E34D6E0073FF5A /* Tasks */;
 			targetProxy = CB2E33EB28E34D710073FF5A /* PBXContainerItemProxy */;
 		};
 		CB2E33F628E34D710073FF5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB2E33D328E34D6E0073FF5A /* Notes */;
+			target = CB2E33D328E34D6E0073FF5A /* Tasks */;
 			targetProxy = CB2E33F528E34D710073FF5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,7 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = Tasks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -459,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.notesapp.Notes;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.notesapp.Tasks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,7 +475,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = Tasks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -486,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.notesapp.Notes;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.notesapp.Tasks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -509,7 +509,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notes.app/Notes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasks.app/Tasks";
 			};
 			name = Debug;
 		};
@@ -528,7 +528,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notes.app/Notes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasks.app/Tasks";
 			};
 			name = Release;
 		};
@@ -569,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB2E33CF28E34D6E0073FF5A /* Build configuration list for PBXProject "Notes" */ = {
+		CB2E33CF28E34D6E0073FF5A /* Build configuration list for PBXProject "Tasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB2E33FC28E34D710073FF5A /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB2E33FE28E34D710073FF5A /* Build configuration list for PBXNativeTarget "Notes" */ = {
+		CB2E33FE28E34D710073FF5A /* Build configuration list for PBXNativeTarget "Tasks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB2E33FF28E34D710073FF5A /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB2E340128E34D710073FF5A /* Build configuration list for PBXNativeTarget "NotesTests" */ = {
+		CB2E340128E34D710073FF5A /* Build configuration list for PBXNativeTarget "TasksTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB2E340228E34D710073FF5A /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB2E340428E34D710073FF5A /* Build configuration list for PBXNativeTarget "NotesUITests" */ = {
+		CB2E340428E34D710073FF5A /* Build configuration list for PBXNativeTarget "TasksUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB2E340528E34D710073FF5A /* Debug */,
